@@ -1,0 +1,6 @@
+framework module Pods_RYQAmuseMentAppTests {
+  umbrella header "Pods-RYQAmuseMentAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

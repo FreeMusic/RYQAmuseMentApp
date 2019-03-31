@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55090C522250AD35000F4E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C512250AD35000F4E74 /* AppDelegate.swift */; };
+		55090C542250AD35000F4E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C532250AD35000F4E74 /* ViewController.swift */; };
+		55090C572250AD35000F4E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55090C552250AD35000F4E74 /* Main.storyboard */; };
+		55090C592250AD3E000F4E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55090C582250AD3E000F4E74 /* Assets.xcassets */; };
+		55090C5C2250AD3E000F4E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55090C5A2250AD3E000F4E74 /* LaunchScreen.storyboard */; };
+		55090C672250AD3E000F4E74 /* RYQAmuseMentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C662250AD3E000F4E74 /* RYQAmuseMentAppTests.swift */; };
+		55090C722250AD3E000F4E74 /* RYQAmuseMentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C712250AD3E000F4E74 /* RYQAmuseMentAppUITests.swift */; };
+		58C32AD493ED53FA3A56A48A /* Pods_RYQAmuseMentAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D3E6334509BB81AE041208 /* Pods_RYQAmuseMentAppUITests.framework */; };
+		781D6710E84FF51961F7FD08 /* Pods_RYQAmuseMentApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC681C17B6F9623F5B6F3C69 /* Pods_RYQAmuseMentApp.framework */; };
+		D741DCDB45E8B85F5933C9C8 /* Pods_RYQAmuseMentAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2B6EEE279EFA356D28E06 /* Pods_RYQAmuseMentAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55090C632250AD3E000F4E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55090C462250AD35000F4E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55090C4D2250AD35000F4E74;
+			remoteInfo = RYQAmuseMentApp;
+		};
+		55090C6E2250AD3E000F4E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55090C462250AD35000F4E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55090C4D2250AD35000F4E74;
+			remoteInfo = RYQAmuseMentApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB91439FD42B6729EB2B521 /* Pods-RYQAmuseMentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentApp/Pods-RYQAmuseMentApp.release.xcconfig"; sourceTree = "<group>"; };
+		55090C4E2250AD35000F4E74 /* RYQAmuseMentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYQAmuseMentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55090C512250AD35000F4E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55090C532250AD35000F4E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55090C562250AD35000F4E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55090C582250AD3E000F4E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55090C5B2250AD3E000F4E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55090C5D2250AD3E000F4E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55090C622250AD3E000F4E74 /* RYQAmuseMentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYQAmuseMentAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55090C662250AD3E000F4E74 /* RYQAmuseMentAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYQAmuseMentAppTests.swift; sourceTree = "<group>"; };
+		55090C682250AD3E000F4E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55090C6D2250AD3E000F4E74 /* RYQAmuseMentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYQAmuseMentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55090C712250AD3E000F4E74 /* RYQAmuseMentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYQAmuseMentAppUITests.swift; sourceTree = "<group>"; };
+		55090C732250AD3E000F4E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E634B188035EE3A605F1D2C /* Pods-RYQAmuseMentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentAppTests/Pods-RYQAmuseMentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81EF3DD1C6ECCA7BBF971808 /* Pods-RYQAmuseMentAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentAppUITests/Pods-RYQAmuseMentAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90DCE91417822333B9AADCFB /* Pods-RYQAmuseMentAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentAppUITests/Pods-RYQAmuseMentAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B14FFE1AB18287645CB89C17 /* Pods-RYQAmuseMentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentApp/Pods-RYQAmuseMentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BB28BDB37E0C8F4AE3C067C7 /* Pods-RYQAmuseMentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentAppTests/Pods-RYQAmuseMentAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC681C17B6F9623F5B6F3C69 /* Pods_RYQAmuseMentApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYQAmuseMentApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB2B6EEE279EFA356D28E06 /* Pods_RYQAmuseMentAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYQAmuseMentAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D3E6334509BB81AE041208 /* Pods_RYQAmuseMentAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYQAmuseMentAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55090C4B2250AD35000F4E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781D6710E84FF51961F7FD08 /* Pods_RYQAmuseMentApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55090C5F2250AD3E000F4E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D741DCDB45E8B85F5933C9C8 /* Pods_RYQAmuseMentAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55090C6A2250AD3E000F4E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C32AD493ED53FA3A56A48A /* Pods_RYQAmuseMentAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182D4B6F139C4230F3E5E36A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B14FFE1AB18287645CB89C17 /* Pods-RYQAmuseMentApp.debug.xcconfig */,
+				0DB91439FD42B6729EB2B521 /* Pods-RYQAmuseMentApp.release.xcconfig */,
+				5E634B188035EE3A605F1D2C /* Pods-RYQAmuseMentAppTests.debug.xcconfig */,
+				BB28BDB37E0C8F4AE3C067C7 /* Pods-RYQAmuseMentAppTests.release.xcconfig */,
+				90DCE91417822333B9AADCFB /* Pods-RYQAmuseMentAppUITests.debug.xcconfig */,
+				81EF3DD1C6ECCA7BBF971808 /* Pods-RYQAmuseMentAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55090C452250AD35000F4E74 = {
+			isa = PBXGroup;
+			children = (
+				55090C502250AD35000F4E74 /* RYQAmuseMentApp */,
+				55090C652250AD3E000F4E74 /* RYQAmuseMentAppTests */,
+				55090C702250AD3E000F4E74 /* RYQAmuseMentAppUITests */,
+				55090C4F2250AD35000F4E74 /* Products */,
+				182D4B6F139C4230F3E5E36A /* Pods */,
+				C196497087D243D8CACB75D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55090C4F2250AD35000F4E74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55090C4E2250AD35000F4E74 /* RYQAmuseMentApp.app */,
+				55090C622250AD3E000F4E74 /* RYQAmuseMentAppTests.xctest */,
+				55090C6D2250AD3E000F4E74 /* RYQAmuseMentAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55090C502250AD35000F4E74 /* RYQAmuseMentApp */ = {
+			isa = PBXGroup;
+			children = (
+				55090C512250AD35000F4E74 /* AppDelegate.swift */,
+				55090C532250AD35000F4E74 /* ViewController.swift */,
+				55090C552250AD35000F4E74 /* Main.storyboard */,
+				55090C582250AD3E000F4E74 /* Assets.xcassets */,
+				55090C5A2250AD3E000F4E74 /* LaunchScreen.storyboard */,
+				55090C5D2250AD3E000F4E74 /* Info.plist */,
+			);
+			path = RYQAmuseMentApp;
+			sourceTree = "<group>";
+		};
+		55090C652250AD3E000F4E74 /* RYQAmuseMentAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				55090C662250AD3E000F4E74 /* RYQAmuseMentAppTests.swift */,
+				55090C682250AD3E000F4E74 /* Info.plist */,
+			);
+			path = RYQAmuseMentAppTests;
+			sourceTree = "<group>";
+		};
+		55090C702250AD3E000F4E74 /* RYQAmuseMentAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55090C712250AD3E000F4E74 /* RYQAmuseMentAppUITests.swift */,
+				55090C732250AD3E000F4E74 /* Info.plist */,
+			);
+			path = RYQAmuseMentAppUITests;
+			sourceTree = "<group>";
+		};
+		C196497087D243D8CACB75D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC681C17B6F9623F5B6F3C69 /* Pods_RYQAmuseMentApp.framework */,
+				BEB2B6EEE279EFA356D28E06 /* Pods_RYQAmuseMentAppTests.framework */,
+				D4D3E6334509BB81AE041208 /* Pods_RYQAmuseMentAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55090C4D2250AD35000F4E74 /* RYQAmuseMentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55090C762250AD3E000F4E74 /* Build configuration list for PBXNativeTarget "RYQAmuseMentApp" */;
+			buildPhases = (
+				3F8F66CC9460283303961BBD /* [CP] Check Pods Manifest.lock */,
+				55090C4A2250AD35000F4E74 /* Sources */,
+				55090C4B2250AD35000F4E74 /* Frameworks */,
+				55090C4C2250AD35000F4E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYQAmuseMentApp;
+			productName = RYQAmuseMentApp;
+			productReference = 55090C4E2250AD35000F4E74 /* RYQAmuseMentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55090C612250AD3E000F4E74 /* RYQAmuseMentAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55090C792250AD3E000F4E74 /* Build configuration list for PBXNativeTarget "RYQAmuseMentAppTests" */;
+			buildPhases = (
+				D654C96E9C9995D00C064387 /* [CP] Check Pods Manifest.lock */,
+				55090C5E2250AD3E000F4E74 /* Sources */,
+				55090C5F2250AD3E000F4E74 /* Frameworks */,
+				55090C602250AD3E000F4E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55090C642250AD3E000F4E74 /* PBXTargetDependency */,
+			);
+			name = RYQAmuseMentAppTests;
+			productName = RYQAmuseMentAppTests;
+			productReference = 55090C622250AD3E000F4E74 /* RYQAmuseMentAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55090C6C2250AD3E000F4E74 /* RYQAmuseMentAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55090C7C2250AD3E000F4E74 /* Build configuration list for PBXNativeTarget "RYQAmuseMentAppUITests" */;
+			buildPhases = (
+				9269AA605FB426D94F345681 /* [CP] Check Pods Manifest.lock */,
+				55090C692250AD3E000F4E74 /* Sources */,
+				55090C6A2250AD3E000F4E74 /* Frameworks */,
+				55090C6B2250AD3E000F4E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55090C6F2250AD3E000F4E74 /* PBXTargetDependency */,
+			);
+			name = RYQAmuseMentAppUITests;
+			productName = RYQAmuseMentAppUITests;
+			productReference = 55090C6D2250AD3E000F4E74 /* RYQAmuseMentAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55090C462250AD35000F4E74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "孙晓阳";
+				TargetAttributes = {
+					55090C4D2250AD35000F4E74 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					55090C612250AD3E000F4E74 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 55090C4D2250AD35000F4E74;
+					};
+					55090C6C2250AD3E000F4E74 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 55090C4D2250AD35000F4E74;
+					};
+				};
+			};
+			buildConfigurationList = 55090C492250AD35000F4E74 /* Build configuration list for PBXProject "RYQAmuseMentApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55090C452250AD35000F4E74;
+			productRefGroup = 55090C4F2250AD35000F4E74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55090C4D2250AD35000F4E74 /* RYQAmuseMentApp */,
+				55090C612250AD3E000F4E74 /* RYQAmuseMentAppTests */,
+				55090C6C2250AD3E000F4E74 /* RYQAmuseMentAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55090C4C2250AD35000F4E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55090C5C2250AD3E000F4E74 /* LaunchScreen.storyboard in Resources */,
+				55090C592250AD3E000F4E74 /* Assets.xcassets in Resources */,
+				55090C572250AD35000F4E74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55090C602250AD3E000F4E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55090C6B2250AD3E000F4E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F8F66CC9460283303961BBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RYQAmuseMentApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9269AA605FB426D94F345681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RYQAmuseMentAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D654C96E9C9995D00C064387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RYQAmuseMentAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55090C4A2250AD35000F4E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55090C542250AD35000F4E74 /* ViewController.swift in Sources */,
+				55090C522250AD35000F4E74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55090C5E2250AD3E000F4E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55090C672250AD3E000F4E74 /* RYQAmuseMentAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55090C692250AD3E000F4E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55090C722250AD3E000F4E74 /* RYQAmuseMentAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55090C642250AD3E000F4E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55090C4D2250AD35000F4E74 /* RYQAmuseMentApp */;
+			targetProxy = 55090C632250AD3E000F4E74 /* PBXContainerItemProxy */;
+		};
+		55090C6F2250AD3E000F4E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55090C4D2250AD35000F4E74 /* RYQAmuseMentApp */;
+			targetProxy = 55090C6E2250AD3E000F4E74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55090C552250AD35000F4E74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55090C562250AD35000F4E74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55090C5A2250AD3E000F4E74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55090C5B2250AD3E000F4E74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55090C742250AD3E000F4E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55090C752250AD3E000F4E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55090C772250AD3E000F4E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14FFE1AB18287645CB89C17 /* Pods-RYQAmuseMentApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYQAmuseMentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeXiaoYao.RYQAmuseMentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55090C782250AD3E000F4E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB91439FD42B6729EB2B521 /* Pods-RYQAmuseMentApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYQAmuseMentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeXiaoYao.RYQAmuseMentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55090C7A2250AD3E000F4E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E634B188035EE3A605F1D2C /* Pods-RYQAmuseMentAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYQAmuseMentAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeXiaoYao.RYQAmuseMentAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYQAmuseMentApp.app/RYQAmuseMentApp";
+			};
+			name = Debug;
+		};
+		55090C7B2250AD3E000F4E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB28BDB37E0C8F4AE3C067C7 /* Pods-RYQAmuseMentAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYQAmuseMentAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeXiaoYao.RYQAmuseMentAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYQAmuseMentApp.app/RYQAmuseMentApp";
+			};
+			name = Release;
+		};
+		55090C7D2250AD3E000F4E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DCE91417822333B9AADCFB /* Pods-RYQAmuseMentAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYQAmuseMentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeXiaoYao.RYQAmuseMentAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RYQAmuseMentApp;
+			};
+			name = Debug;
+		};
+		55090C7E2250AD3E000F4E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EF3DD1C6ECCA7BBF971808 /* Pods-RYQAmuseMentAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RYQAmuseMentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeXiaoYao.RYQAmuseMentAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RYQAmuseMentApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55090C492250AD35000F4E74 /* Build configuration list for PBXProject "RYQAmuseMentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55090C742250AD3E000F4E74 /* Debug */,
+				55090C752250AD3E000F4E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55090C762250AD3E000F4E74 /* Build configuration list for PBXNativeTarget "RYQAmuseMentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55090C772250AD3E000F4E74 /* Debug */,
+				55090C782250AD3E000F4E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55090C792250AD3E000F4E74 /* Build configuration list for PBXNativeTarget "RYQAmuseMentAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55090C7A2250AD3E000F4E74 /* Debug */,
+				55090C7B2250AD3E000F4E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55090C7C2250AD3E000F4E74 /* Build configuration list for PBXNativeTarget "RYQAmuseMentAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55090C7D2250AD3E000F4E74 /* Debug */,
+				55090C7E2250AD3E000F4E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55090C462250AD35000F4E74 /* Project object */;
+}

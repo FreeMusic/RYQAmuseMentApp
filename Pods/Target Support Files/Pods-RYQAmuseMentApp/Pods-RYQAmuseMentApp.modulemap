@@ -1,0 +1,6 @@
+framework module Pods_RYQAmuseMentApp {
+  umbrella header "Pods-RYQAmuseMentApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
