@@ -14,6 +14,41 @@
 		55090C5C2250AD3E000F4E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55090C5A2250AD3E000F4E74 /* LaunchScreen.storyboard */; };
 		55090C672250AD3E000F4E74 /* RYQAmuseMentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C662250AD3E000F4E74 /* RYQAmuseMentAppTests.swift */; };
 		55090C722250AD3E000F4E74 /* RYQAmuseMentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C712250AD3E000F4E74 /* RYQAmuseMentAppUITests.swift */; };
+		55090C822250F4CB000F4E74 /* MacroDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C812250F4CB000F4E74 /* MacroDefinition.swift */; };
+		55090C992250F5DA000F4E74 /* UIColor+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C872250F5DA000F4E74 /* UIColor+Category.swift */; };
+		55090C9A2250F5DA000F4E74 /* UILabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C892250F5DA000F4E74 /* UILabel+Category.swift */; };
+		55090C9B2250F5DA000F4E74 /* UIImageView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C8B2250F5DA000F4E74 /* UIImageView+Category.swift */; };
+		55090C9D2250F5DA000F4E74 /* UIImage+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C902250F5DA000F4E74 /* UIImage+Extention.swift */; };
+		55090C9E2250F5DA000F4E74 /* UIButton+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C922250F5DA000F4E74 /* UIButton+Category.swift */; };
+		55090C9F2250F5DA000F4E74 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C942250F5DA000F4E74 /* UIView+Extention.swift */; };
+		55090CA02250F5DA000F4E74 /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C962250F5DA000F4E74 /* String+Category.swift */; };
+		55090CA12250F5DA000F4E74 /* UITextFiled+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C982250F5DA000F4E74 /* UITextFiled+Category.swift */; };
+		55490BEE225106E600652271 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55490B99225106E600652271 /* BaseViewController.m */; };
+		55490BF1225106E600652271 /* MyCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490B9F225106E600652271 /* MyCollectionViewVC.swift */; };
+		55490BF2225106E600652271 /* MyTableViewReFreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55490BA2225106E600652271 /* MyTableViewReFreshVC.m */; };
+		55490BF3225106E600652271 /* MyTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55490BA5225106E600652271 /* MyTableViewVC.m */; };
+		55490BF4225106E600652271 /* RYQAlterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490BA7225106E600652271 /* RYQAlterVC.swift */; };
+		55490BF6225106E600652271 /* RYQImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490BAC225106E600652271 /* RYQImageViewVC.swift */; };
+		55490BF7225106E600652271 /* RYQPhotoColletionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490BAD225106E600652271 /* RYQPhotoColletionCell.swift */; };
+		55490BF8225106E600652271 /* RYQWebViewVC+JavaScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490BAF225106E600652271 /* RYQWebViewVC+JavaScript.swift */; };
+		55490BF9225106E600652271 /* RYQWebViewVC+Progess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490BB0225106E600652271 /* RYQWebViewVC+Progess.swift */; };
+		55490BFA225106E600652271 /* RYQWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490BB1225106E600652271 /* RYQWebViewVC.swift */; };
+		55490BFF225106E600652271 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55490BBE225106E600652271 /* MyTableViewCell.m */; };
+		55490C05225106E600652271 /* RYQButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490BC6225106E600652271 /* RYQButton.swift */; };
+		55490C06225106E600652271 /* RYQCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490BC8225106E600652271 /* RYQCollectionView.swift */; };
+		55490C07225106E600652271 /* RYQImgageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490BCA225106E600652271 /* RYQImgageView.swift */; };
+		55490C08225106E600652271 /* RYQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55490BCD225106E600652271 /* RYQTextView.m */; };
+		55490C0A2251085E00652271 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C092251085E00652271 /* API.swift */; };
+		55490C1B2251093400652271 /* Factory+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C0D2251093400652271 /* Factory+Cache.swift */; };
+		55490C1C2251093400652271 /* Factory+EncryptionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C0E2251093400652271 /* Factory+EncryptionHelper.swift */; };
+		55490C1D2251093400652271 /* Factory+RankTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C0F2251093400652271 /* Factory+RankTools.swift */; };
+		55490C1E2251093400652271 /* Factory+SystemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C102251093400652271 /* Factory+SystemHelper.swift */; };
+		55490C1F2251093400652271 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C112251093400652271 /* Factory.swift */; };
+		55490C202251093400652271 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C132251093400652271 /* MyModel.swift */; };
+		55490C242251093400652271 /* NetWorkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C182251093400652271 /* NetWorkHelper.swift */; };
+		55490C252251093400652271 /* SXYNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C192251093400652271 /* SXYNetWork.swift */; };
+		55490C262251093400652271 /* SXYNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490C1A2251093400652271 /* SXYNetworkReachability.swift */; };
+		558649FB2251025F004F5EF9 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 558649FA2251025F004F5EF9 /* NSDictionary+Category.m */; };
 		58C32AD493ED53FA3A56A48A /* Pods_RYQAmuseMentAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D3E6334509BB81AE041208 /* Pods_RYQAmuseMentAppUITests.framework */; };
 		781D6710E84FF51961F7FD08 /* Pods_RYQAmuseMentApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC681C17B6F9623F5B6F3C69 /* Pods_RYQAmuseMentApp.framework */; };
 		D741DCDB45E8B85F5933C9C8 /* Pods_RYQAmuseMentAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2B6EEE279EFA356D28E06 /* Pods_RYQAmuseMentAppTests.framework */; };
@@ -51,6 +86,48 @@
 		55090C6D2250AD3E000F4E74 /* RYQAmuseMentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYQAmuseMentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55090C712250AD3E000F4E74 /* RYQAmuseMentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYQAmuseMentAppUITests.swift; sourceTree = "<group>"; };
 		55090C732250AD3E000F4E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55090C812250F4CB000F4E74 /* MacroDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroDefinition.swift; sourceTree = "<group>"; };
+		55090C872250F5DA000F4E74 /* UIColor+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Category.swift"; sourceTree = "<group>"; };
+		55090C892250F5DA000F4E74 /* UILabel+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Category.swift"; sourceTree = "<group>"; };
+		55090C8B2250F5DA000F4E74 /* UIImageView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Category.swift"; sourceTree = "<group>"; };
+		55090C902250F5DA000F4E74 /* UIImage+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extention.swift"; sourceTree = "<group>"; };
+		55090C922250F5DA000F4E74 /* UIButton+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Category.swift"; sourceTree = "<group>"; };
+		55090C942250F5DA000F4E74 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		55090C962250F5DA000F4E74 /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
+		55090C982250F5DA000F4E74 /* UITextFiled+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextFiled+Category.swift"; sourceTree = "<group>"; };
+		55490B98225106E600652271 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		55490B99225106E600652271 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		55490B9F225106E600652271 /* MyCollectionViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewVC.swift; sourceTree = "<group>"; };
+		55490BA1225106E600652271 /* MyTableViewReFreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewReFreshVC.h; sourceTree = "<group>"; };
+		55490BA2225106E600652271 /* MyTableViewReFreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewReFreshVC.m; sourceTree = "<group>"; };
+		55490BA4225106E600652271 /* MyTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewVC.h; sourceTree = "<group>"; };
+		55490BA5225106E600652271 /* MyTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewVC.m; sourceTree = "<group>"; };
+		55490BA7225106E600652271 /* RYQAlterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYQAlterVC.swift; sourceTree = "<group>"; };
+		55490BAC225106E600652271 /* RYQImageViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYQImageViewVC.swift; sourceTree = "<group>"; };
+		55490BAD225106E600652271 /* RYQPhotoColletionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYQPhotoColletionCell.swift; sourceTree = "<group>"; };
+		55490BAF225106E600652271 /* RYQWebViewVC+JavaScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RYQWebViewVC+JavaScript.swift"; sourceTree = "<group>"; };
+		55490BB0225106E600652271 /* RYQWebViewVC+Progess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RYQWebViewVC+Progess.swift"; sourceTree = "<group>"; };
+		55490BB1225106E600652271 /* RYQWebViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYQWebViewVC.swift; sourceTree = "<group>"; };
+		55490BBD225106E600652271 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		55490BBE225106E600652271 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		55490BC6225106E600652271 /* RYQButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYQButton.swift; sourceTree = "<group>"; };
+		55490BC8225106E600652271 /* RYQCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYQCollectionView.swift; sourceTree = "<group>"; };
+		55490BCA225106E600652271 /* RYQImgageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYQImgageView.swift; sourceTree = "<group>"; };
+		55490BCC225106E600652271 /* RYQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYQTextView.h; sourceTree = "<group>"; };
+		55490BCD225106E600652271 /* RYQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYQTextView.m; sourceTree = "<group>"; };
+		55490C092251085E00652271 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		55490C0D2251093400652271 /* Factory+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Factory+Cache.swift"; sourceTree = "<group>"; };
+		55490C0E2251093400652271 /* Factory+EncryptionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Factory+EncryptionHelper.swift"; sourceTree = "<group>"; };
+		55490C0F2251093400652271 /* Factory+RankTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Factory+RankTools.swift"; sourceTree = "<group>"; };
+		55490C102251093400652271 /* Factory+SystemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Factory+SystemHelper.swift"; sourceTree = "<group>"; };
+		55490C112251093400652271 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		55490C132251093400652271 /* MyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
+		55490C182251093400652271 /* NetWorkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkHelper.swift; sourceTree = "<group>"; };
+		55490C192251093400652271 /* SXYNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SXYNetWork.swift; sourceTree = "<group>"; };
+		55490C1A2251093400652271 /* SXYNetworkReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SXYNetworkReachability.swift; sourceTree = "<group>"; };
+		558649F4225101BD004F5EF9 /* RYQAmuseMentApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RYQAmuseMentApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		558649F92251025F004F5EF9 /* NSDictionary+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Category.h"; sourceTree = "<group>"; };
+		558649FA2251025F004F5EF9 /* NSDictionary+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Category.m"; sourceTree = "<group>"; };
 		5E634B188035EE3A605F1D2C /* Pods-RYQAmuseMentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentAppTests/Pods-RYQAmuseMentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81EF3DD1C6ECCA7BBF971808 /* Pods-RYQAmuseMentAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentAppUITests/Pods-RYQAmuseMentAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		90DCE91417822333B9AADCFB /* Pods-RYQAmuseMentAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentAppUITests/Pods-RYQAmuseMentAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +182,7 @@
 		55090C452250AD35000F4E74 = {
 			isa = PBXGroup;
 			children = (
+				55090C7F2250E9F7000F4E74 /* RYQAmuseMentClasses */,
 				55090C502250AD35000F4E74 /* RYQAmuseMentApp */,
 				55090C652250AD3E000F4E74 /* RYQAmuseMentAppTests */,
 				55090C702250AD3E000F4E74 /* RYQAmuseMentAppUITests */,
@@ -129,6 +207,7 @@
 			children = (
 				55090C512250AD35000F4E74 /* AppDelegate.swift */,
 				55090C532250AD35000F4E74 /* ViewController.swift */,
+				558649F4225101BD004F5EF9 /* RYQAmuseMentApp-Bridging-Header.h */,
 				55090C552250AD35000F4E74 /* Main.storyboard */,
 				55090C582250AD3E000F4E74 /* Assets.xcassets */,
 				55090C5A2250AD3E000F4E74 /* LaunchScreen.storyboard */,
@@ -153,6 +232,302 @@
 				55090C732250AD3E000F4E74 /* Info.plist */,
 			);
 			path = RYQAmuseMentAppUITests;
+			sourceTree = "<group>";
+		};
+		55090C7F2250E9F7000F4E74 /* RYQAmuseMentClasses */ = {
+			isa = PBXGroup;
+			children = (
+				55090C852250F599000F4E74 /* Classes */,
+				55090C832250F592000F4E74 /* Extention */,
+				55090C842250F592000F4E74 /* Tools */,
+				55090C802250F4B1000F4E74 /* Header */,
+			);
+			path = RYQAmuseMentClasses;
+			sourceTree = "<group>";
+		};
+		55090C802250F4B1000F4E74 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				55090C812250F4CB000F4E74 /* MacroDefinition.swift */,
+				55490C092251085E00652271 /* API.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		55090C832250F592000F4E74 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				558649F82251025F004F5EF9 /* NSDictionary */,
+				55090C952250F5DA000F4E74 /* String */,
+				55090C912250F5DA000F4E74 /* UIButton */,
+				55090C862250F5DA000F4E74 /* UIColor */,
+				55090C8F2250F5DA000F4E74 /* UIImage */,
+				55090C8A2250F5DA000F4E74 /* UIImageView */,
+				55090C882250F5DA000F4E74 /* UILabel */,
+				55090C972250F5DA000F4E74 /* UITextFiled */,
+				55090C932250F5DA000F4E74 /* UIView */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		55090C842250F592000F4E74 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				55490C0B2251093400652271 /* CommonTools */,
+				55490B96225106E600652271 /* ToolsVC */,
+				55490BB9225106E600652271 /* ToolsView */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		55090C852250F599000F4E74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		55090C862250F5DA000F4E74 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				55090C872250F5DA000F4E74 /* UIColor+Category.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		55090C882250F5DA000F4E74 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				55090C892250F5DA000F4E74 /* UILabel+Category.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		55090C8A2250F5DA000F4E74 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				55090C8B2250F5DA000F4E74 /* UIImageView+Category.swift */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		55090C8F2250F5DA000F4E74 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				55090C902250F5DA000F4E74 /* UIImage+Extention.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		55090C912250F5DA000F4E74 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				55090C922250F5DA000F4E74 /* UIButton+Category.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		55090C932250F5DA000F4E74 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				55090C942250F5DA000F4E74 /* UIView+Extention.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		55090C952250F5DA000F4E74 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				55090C962250F5DA000F4E74 /* String+Category.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		55090C972250F5DA000F4E74 /* UITextFiled */ = {
+			isa = PBXGroup;
+			children = (
+				55090C982250F5DA000F4E74 /* UITextFiled+Category.swift */,
+			);
+			path = UITextFiled;
+			sourceTree = "<group>";
+		};
+		55490B96225106E600652271 /* ToolsVC */ = {
+			isa = PBXGroup;
+			children = (
+				55490B97225106E600652271 /* BaseViewController */,
+				55490B9E225106E600652271 /* MyCollectionViewVC */,
+				55490BA0225106E600652271 /* MyTableViewReFreshVC */,
+				55490BA3225106E600652271 /* MyTableViewVC */,
+				55490BA6225106E600652271 /* RYQAlterVC */,
+				55490BAB225106E600652271 /* RYQImageViewVC */,
+				55490BAE225106E600652271 /* RYQWebViewVC */,
+			);
+			path = ToolsVC;
+			sourceTree = "<group>";
+		};
+		55490B97225106E600652271 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55490B98225106E600652271 /* BaseViewController.h */,
+				55490B99225106E600652271 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		55490B9E225106E600652271 /* MyCollectionViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				55490B9F225106E600652271 /* MyCollectionViewVC.swift */,
+			);
+			path = MyCollectionViewVC;
+			sourceTree = "<group>";
+		};
+		55490BA0225106E600652271 /* MyTableViewReFreshVC */ = {
+			isa = PBXGroup;
+			children = (
+				55490BA1225106E600652271 /* MyTableViewReFreshVC.h */,
+				55490BA2225106E600652271 /* MyTableViewReFreshVC.m */,
+			);
+			path = MyTableViewReFreshVC;
+			sourceTree = "<group>";
+		};
+		55490BA3225106E600652271 /* MyTableViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				55490BA4225106E600652271 /* MyTableViewVC.h */,
+				55490BA5225106E600652271 /* MyTableViewVC.m */,
+			);
+			path = MyTableViewVC;
+			sourceTree = "<group>";
+		};
+		55490BA6225106E600652271 /* RYQAlterVC */ = {
+			isa = PBXGroup;
+			children = (
+				55490BA7225106E600652271 /* RYQAlterVC.swift */,
+			);
+			path = RYQAlterVC;
+			sourceTree = "<group>";
+		};
+		55490BAB225106E600652271 /* RYQImageViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				55490BAC225106E600652271 /* RYQImageViewVC.swift */,
+				55490BAD225106E600652271 /* RYQPhotoColletionCell.swift */,
+			);
+			path = RYQImageViewVC;
+			sourceTree = "<group>";
+		};
+		55490BAE225106E600652271 /* RYQWebViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				55490BAF225106E600652271 /* RYQWebViewVC+JavaScript.swift */,
+				55490BB0225106E600652271 /* RYQWebViewVC+Progess.swift */,
+				55490BB1225106E600652271 /* RYQWebViewVC.swift */,
+			);
+			path = RYQWebViewVC;
+			sourceTree = "<group>";
+		};
+		55490BB9225106E600652271 /* ToolsView */ = {
+			isa = PBXGroup;
+			children = (
+				55490BBC225106E600652271 /* MyTableViewCell */,
+				55490BC5225106E600652271 /* RYQButton */,
+				55490BC7225106E600652271 /* RYQCollectionView */,
+				55490BC9225106E600652271 /* RYQImgageView */,
+				55490BCB225106E600652271 /* RYQTextView */,
+			);
+			path = ToolsView;
+			sourceTree = "<group>";
+		};
+		55490BBC225106E600652271 /* MyTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				55490BBD225106E600652271 /* MyTableViewCell.h */,
+				55490BBE225106E600652271 /* MyTableViewCell.m */,
+			);
+			path = MyTableViewCell;
+			sourceTree = "<group>";
+		};
+		55490BC5225106E600652271 /* RYQButton */ = {
+			isa = PBXGroup;
+			children = (
+				55490BC6225106E600652271 /* RYQButton.swift */,
+			);
+			path = RYQButton;
+			sourceTree = "<group>";
+		};
+		55490BC7225106E600652271 /* RYQCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				55490BC8225106E600652271 /* RYQCollectionView.swift */,
+			);
+			path = RYQCollectionView;
+			sourceTree = "<group>";
+		};
+		55490BC9225106E600652271 /* RYQImgageView */ = {
+			isa = PBXGroup;
+			children = (
+				55490BCA225106E600652271 /* RYQImgageView.swift */,
+			);
+			path = RYQImgageView;
+			sourceTree = "<group>";
+		};
+		55490BCB225106E600652271 /* RYQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				55490BCC225106E600652271 /* RYQTextView.h */,
+				55490BCD225106E600652271 /* RYQTextView.m */,
+			);
+			path = RYQTextView;
+			sourceTree = "<group>";
+		};
+		55490C0B2251093400652271 /* CommonTools */ = {
+			isa = PBXGroup;
+			children = (
+				55490C0C2251093400652271 /* Factory */,
+				55490C122251093400652271 /* MyModel */,
+				55490C142251093400652271 /* NetWorkTools */,
+			);
+			path = CommonTools;
+			sourceTree = "<group>";
+		};
+		55490C0C2251093400652271 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				55490C0D2251093400652271 /* Factory+Cache.swift */,
+				55490C0E2251093400652271 /* Factory+EncryptionHelper.swift */,
+				55490C0F2251093400652271 /* Factory+RankTools.swift */,
+				55490C102251093400652271 /* Factory+SystemHelper.swift */,
+				55490C112251093400652271 /* Factory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		55490C122251093400652271 /* MyModel */ = {
+			isa = PBXGroup;
+			children = (
+				55490C132251093400652271 /* MyModel.swift */,
+			);
+			path = MyModel;
+			sourceTree = "<group>";
+		};
+		55490C142251093400652271 /* NetWorkTools */ = {
+			isa = PBXGroup;
+			children = (
+				55490C182251093400652271 /* NetWorkHelper.swift */,
+				55490C192251093400652271 /* SXYNetWork.swift */,
+				55490C1A2251093400652271 /* SXYNetworkReachability.swift */,
+			);
+			path = NetWorkTools;
+			sourceTree = "<group>";
+		};
+		558649F82251025F004F5EF9 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				558649F92251025F004F5EF9 /* NSDictionary+Category.h */,
+				558649FA2251025F004F5EF9 /* NSDictionary+Category.m */,
+			);
+			path = NSDictionary;
 			sourceTree = "<group>";
 		};
 		C196497087D243D8CACB75D8 /* Frameworks */ = {
@@ -237,6 +612,7 @@
 				TargetAttributes = {
 					55090C4D2250AD35000F4E74 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 0940;
 					};
 					55090C612250AD3E000F4E74 = {
 						CreatedOnToolsVersion = 10.1;
@@ -393,8 +769,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55490BEE225106E600652271 /* BaseViewController.m in Sources */,
+				55490BF7225106E600652271 /* RYQPhotoColletionCell.swift in Sources */,
+				55490C242251093400652271 /* NetWorkHelper.swift in Sources */,
+				55490C1F2251093400652271 /* Factory.swift in Sources */,
+				55090C822250F4CB000F4E74 /* MacroDefinition.swift in Sources */,
+				55490C262251093400652271 /* SXYNetworkReachability.swift in Sources */,
+				55490C08225106E600652271 /* RYQTextView.m in Sources */,
+				55490BF1225106E600652271 /* MyCollectionViewVC.swift in Sources */,
+				55490C1C2251093400652271 /* Factory+EncryptionHelper.swift in Sources */,
+				55090C9E2250F5DA000F4E74 /* UIButton+Category.swift in Sources */,
+				55490C0A2251085E00652271 /* API.swift in Sources */,
+				55490BFA225106E600652271 /* RYQWebViewVC.swift in Sources */,
+				55490BF9225106E600652271 /* RYQWebViewVC+Progess.swift in Sources */,
 				55090C542250AD35000F4E74 /* ViewController.swift in Sources */,
+				55490C1B2251093400652271 /* Factory+Cache.swift in Sources */,
+				55490C202251093400652271 /* MyModel.swift in Sources */,
+				55090CA02250F5DA000F4E74 /* String+Category.swift in Sources */,
+				55490BF4225106E600652271 /* RYQAlterVC.swift in Sources */,
 				55090C522250AD35000F4E74 /* AppDelegate.swift in Sources */,
+				55090CA12250F5DA000F4E74 /* UITextFiled+Category.swift in Sources */,
+				55490BF6225106E600652271 /* RYQImageViewVC.swift in Sources */,
+				55490C1D2251093400652271 /* Factory+RankTools.swift in Sources */,
+				55490C252251093400652271 /* SXYNetWork.swift in Sources */,
+				55490BF2225106E600652271 /* MyTableViewReFreshVC.m in Sources */,
+				55090C992250F5DA000F4E74 /* UIColor+Category.swift in Sources */,
+				55090C9D2250F5DA000F4E74 /* UIImage+Extention.swift in Sources */,
+				55490C05225106E600652271 /* RYQButton.swift in Sources */,
+				55490C06225106E600652271 /* RYQCollectionView.swift in Sources */,
+				55090C9B2250F5DA000F4E74 /* UIImageView+Category.swift in Sources */,
+				55090C9F2250F5DA000F4E74 /* UIView+Extention.swift in Sources */,
+				55490BF8225106E600652271 /* RYQWebViewVC+JavaScript.swift in Sources */,
+				558649FB2251025F004F5EF9 /* NSDictionary+Category.m in Sources */,
+				55490BF3225106E600652271 /* MyTableViewVC.m in Sources */,
+				55090C9A2250F5DA000F4E74 /* UILabel+Category.swift in Sources */,
+				55490C1E2251093400652271 /* Factory+SystemHelper.swift in Sources */,
+				55490C07225106E600652271 /* RYQImgageView.swift in Sources */,
+				55490BFF225106E600652271 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +982,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6A56233DX;
@@ -583,6 +995,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LeXiaoYao.RYQAmuseMentApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RYQAmuseMentApp/RYQAmuseMentApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -594,6 +1008,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6A56233DX;
@@ -606,6 +1021,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LeXiaoYao.RYQAmuseMentApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RYQAmuseMentApp/RYQAmuseMentApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
