@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1831031D2253518E00653268 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831031A2253518E00653268 /* MyTabBar.swift */; };
+		1831031E2253518E00653268 /* MyNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831031B2253518E00653268 /* MyNavigation.swift */; };
+		1831031F2253518E00653268 /* MyPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831031C2253518E00653268 /* MyPublic.swift */; };
+		183103212253524000653268 /* MainClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183103202253524000653268 /* MainClasses.swift */; };
 		55090C522250AD35000F4E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C512250AD35000F4E74 /* AppDelegate.swift */; };
 		55090C542250AD35000F4E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C532250AD35000F4E74 /* ViewController.swift */; };
 		55090C572250AD35000F4E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55090C552250AD35000F4E74 /* Main.storyboard */; };
@@ -73,6 +77,10 @@
 
 /* Begin PBXFileReference section */
 		0DB91439FD42B6729EB2B521 /* Pods-RYQAmuseMentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYQAmuseMentApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYQAmuseMentApp/Pods-RYQAmuseMentApp.release.xcconfig"; sourceTree = "<group>"; };
+		1831031A2253518E00653268 /* MyTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		1831031B2253518E00653268 /* MyNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigation.swift; sourceTree = "<group>"; };
+		1831031C2253518E00653268 /* MyPublic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPublic.swift; sourceTree = "<group>"; };
+		183103202253524000653268 /* MainClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClasses.swift; sourceTree = "<group>"; };
 		55090C4E2250AD35000F4E74 /* RYQAmuseMentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYQAmuseMentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55090C512250AD35000F4E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55090C532250AD35000F4E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +187,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		183103172253510800653268 /* MainClasses */ = {
+			isa = PBXGroup;
+			children = (
+				183103202253524000653268 /* MainClasses.swift */,
+			);
+			path = MainClasses;
+			sourceTree = "<group>";
+		};
+		183103182253510800653268 /* ThirdClasses */ = {
+			isa = PBXGroup;
+			children = (
+				183103192253518E00653268 /* MyTabBar */,
+			);
+			path = ThirdClasses;
+			sourceTree = "<group>";
+		};
+		183103192253518E00653268 /* MyTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1831031A2253518E00653268 /* MyTabBar.swift */,
+				1831031B2253518E00653268 /* MyNavigation.swift */,
+				1831031C2253518E00653268 /* MyPublic.swift */,
+			);
+			path = MyTabBar;
+			sourceTree = "<group>";
+		};
 		55090C452250AD35000F4E74 = {
 			isa = PBXGroup;
 			children = (
@@ -237,7 +271,8 @@
 		55090C7F2250E9F7000F4E74 /* RYQAmuseMentClasses */ = {
 			isa = PBXGroup;
 			children = (
-				55090C852250F599000F4E74 /* Classes */,
+				183103172253510800653268 /* MainClasses */,
+				183103182253510800653268 /* ThirdClasses */,
 				55090C832250F592000F4E74 /* Extention */,
 				55090C842250F592000F4E74 /* Tools */,
 				55090C802250F4B1000F4E74 /* Header */,
@@ -278,13 +313,6 @@
 				55490BB9225106E600652271 /* ToolsView */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		55090C852250F599000F4E74 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		55090C862250F5DA000F4E74 /* UIColor */ = {
@@ -771,6 +799,7 @@
 			files = (
 				55490BEE225106E600652271 /* BaseViewController.m in Sources */,
 				55490BF7225106E600652271 /* RYQPhotoColletionCell.swift in Sources */,
+				1831031E2253518E00653268 /* MyNavigation.swift in Sources */,
 				55490C242251093400652271 /* NetWorkHelper.swift in Sources */,
 				55490C1F2251093400652271 /* Factory.swift in Sources */,
 				55090C822250F4CB000F4E74 /* MacroDefinition.swift in Sources */,
@@ -782,12 +811,15 @@
 				55490C0A2251085E00652271 /* API.swift in Sources */,
 				55490BFA225106E600652271 /* RYQWebViewVC.swift in Sources */,
 				55490BF9225106E600652271 /* RYQWebViewVC+Progess.swift in Sources */,
+				1831031F2253518E00653268 /* MyPublic.swift in Sources */,
+				183103212253524000653268 /* MainClasses.swift in Sources */,
 				55090C542250AD35000F4E74 /* ViewController.swift in Sources */,
 				55490C1B2251093400652271 /* Factory+Cache.swift in Sources */,
 				55490C202251093400652271 /* MyModel.swift in Sources */,
 				55090CA02250F5DA000F4E74 /* String+Category.swift in Sources */,
 				55490BF4225106E600652271 /* RYQAlterVC.swift in Sources */,
 				55090C522250AD35000F4E74 /* AppDelegate.swift in Sources */,
+				1831031D2253518E00653268 /* MyTabBar.swift in Sources */,
 				55090CA12250F5DA000F4E74 /* UITextFiled+Category.swift in Sources */,
 				55490BF6225106E600652271 /* RYQImageViewVC.swift in Sources */,
 				55490C1D2251093400652271 /* Factory+RankTools.swift in Sources */,

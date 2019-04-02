@@ -23,9 +23,9 @@
     if ([self respondsToSelector:@selector(edgesForExtendedLayout)]) {
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
-    //隐藏导航栏的分割线
-    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+//    //隐藏导航栏的分割线
+//    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+//    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
 }
 /**
  自定义返回栏
@@ -45,11 +45,11 @@
     [self.view endEditing:YES];
 }
 
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    self.navigationController.navigationBar.barStyle = UIStatusBarStyleDefault;
-    self.navigationController.navigationBar.backgroundColor = [UIColor whiteColor];
-}
+//- (void)viewWillAppear:(BOOL)animated{
+//    [super viewWillAppear:animated];
+//    self.navigationController.navigationBar.barStyle = UIStatusBarStyleDefault;
+//    self.navigationController.navigationBar.backgroundColor = [UIColor whiteColor];
+//}
 //设置状态栏背景颜色
 - (void)setStatusBarBackgroundColor:(UIColor *)color {
     
