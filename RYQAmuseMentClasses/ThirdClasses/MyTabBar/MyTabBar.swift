@@ -14,9 +14,9 @@ class MyTabBar: UITabBarController {
         let tabBarVC = UITabBarController()
         
         //床位管理导航控制器
-        let bedNavi = self.initNavigationController(myClass: ViewController.self, title: "床位管理", imgName: "bedManngerUnSelected", selectedImgName: "bedManngerSelected")
+        let bedNavi = self.initNavigationController(myClass: YZSHomeVC.self, title: "首页", imgName: "bedManngerUnSelected", selectedImgName: "bedManngerSelected")
         //收益管理导航控制器
-        let gainsNavi = self.initNavigationController(myClass: ViewController.self, title: "收益管理", imgName: "incomeManngerUnSelected", selectedImgName: "incomeManngerSelected")
+        let gainsNavi = self.initNavigationController(myClass: YZSHTopicVC.self, title: "话题", imgName: "incomeManngerUnSelected", selectedImgName: "incomeManngerSelected")
         //报修中心导航控制器
         let repairsNavi = self.initNavigationController(myClass: ViewController.self, title: "报修中心", imgName: "repairsCenterUnSelcted", selectedImgName: "repairsCenterSelcted")
         //开锁测试导航控制器

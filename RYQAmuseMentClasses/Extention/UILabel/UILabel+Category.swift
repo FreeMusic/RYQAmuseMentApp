@@ -65,8 +65,7 @@ extension UILabel {
             label.font = UIFont.systemFont(ofSize: font*m6Scale)
         case .blod:
             label.font = UIFont.boldSystemFont(ofSize: font*m6Scale)
-        default:
-            label.font = UIFont.systemFont(ofSize: font*m6Scale)
+
         }
         
         return label
@@ -96,26 +95,26 @@ extension UILabel {
         
         return label
     }
-    /**
-     改变字符串的颜色
-     */
-    func changeStringColor(changeString:String, color:UIColor){
-        
-        let string = NSMutableAttributedString.init(string: self.text!)
-        
-        string.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: NSMakeRange(0, changeString.characters.count))
-        
-        self.attributedText = string
-    }
-    /**
-     改变同一个Label的某些字体大小
-     */
-    func changeStringSize(changeString:String, font:UIFont) {
-        let string = NSMutableAttributedString.init(string: self.text!)
-        string.addAttribute(NSAttributedString.Key.font, value: font, range: NSMakeRange(0, changeString.characters.count))
-        
-        self.attributedText = string
-    }
+//    /**
+//     改变字符串的颜色
+//     */
+//    func changeStringColor(changeString:String, color:UIColor){
+//        
+//        let string = NSMutableAttributedString.init(string: self.text!)
+//        
+//        string.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: NSMakeRange(0, changeString.characters.count))
+//        
+//        self.attributedText = string
+//    }
+//    /**
+//     改变同一个Label的某些字体大小
+//     */
+//    func changeStringSize(changeString:String, font:UIFont) {
+//        let string = NSMutableAttributedString.init(string: self.text!)
+//        string.addAttribute(NSAttributedString.Key.font, value: font, range: NSMakeRange(0, changeString.characters.count))
+//        
+//        self.attributedText = string
+//    }
     
     /**
      按钮的点击事件

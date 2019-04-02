@@ -44,7 +44,6 @@ extension Factory {
             info = UIDevice.current.systemName
         case .model:
             info = UIDevice.current.model
-        default: break
             
         }
         

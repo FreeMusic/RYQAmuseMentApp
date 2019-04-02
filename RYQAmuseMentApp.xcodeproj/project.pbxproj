@@ -10,7 +10,6 @@
 		1831031D2253518E00653268 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831031A2253518E00653268 /* MyTabBar.swift */; };
 		1831031E2253518E00653268 /* MyNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831031B2253518E00653268 /* MyNavigation.swift */; };
 		1831031F2253518E00653268 /* MyPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831031C2253518E00653268 /* MyPublic.swift */; };
-		183103212253524000653268 /* MainClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183103202253524000653268 /* MainClasses.swift */; };
 		55090C522250AD35000F4E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C512250AD35000F4E74 /* AppDelegate.swift */; };
 		55090C542250AD35000F4E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C532250AD35000F4E74 /* ViewController.swift */; };
 		55090C572250AD35000F4E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55090C552250AD35000F4E74 /* Main.storyboard */; };
@@ -27,6 +26,11 @@
 		55090C9F2250F5DA000F4E74 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C942250F5DA000F4E74 /* UIView+Extention.swift */; };
 		55090CA02250F5DA000F4E74 /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C962250F5DA000F4E74 /* String+Category.swift */; };
 		55090CA12250F5DA000F4E74 /* UITextFiled+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55090C982250F5DA000F4E74 /* UITextFiled+Category.swift */; };
+		550EB7DC225388AE0074A21F /* YZSHLifeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EB7DB225388AE0074A21F /* YZSHLifeVC.swift */; };
+		550EB7DE225388BA0074A21F /* YZSHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EB7DD225388BA0074A21F /* YZSHomeVC.swift */; };
+		550EB7E0225388C40074A21F /* YZSHPublishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EB7DF225388C40074A21F /* YZSHPublishVC.swift */; };
+		550EB7E2225388D00074A21F /* YZSHTopicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EB7E1225388D00074A21F /* YZSHTopicVC.swift */; };
+		550EB7E4225388D90074A21F /* YZSHUserCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EB7E3225388D90074A21F /* YZSHUserCenterVC.swift */; };
 		55490BEE225106E600652271 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55490B99225106E600652271 /* BaseViewController.m */; };
 		55490BF1225106E600652271 /* MyCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55490B9F225106E600652271 /* MyCollectionViewVC.swift */; };
 		55490BF2225106E600652271 /* MyTableViewReFreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55490BA2225106E600652271 /* MyTableViewReFreshVC.m */; };
@@ -80,7 +84,6 @@
 		1831031A2253518E00653268 /* MyTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
 		1831031B2253518E00653268 /* MyNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigation.swift; sourceTree = "<group>"; };
 		1831031C2253518E00653268 /* MyPublic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPublic.swift; sourceTree = "<group>"; };
-		183103202253524000653268 /* MainClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClasses.swift; sourceTree = "<group>"; };
 		55090C4E2250AD35000F4E74 /* RYQAmuseMentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYQAmuseMentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55090C512250AD35000F4E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55090C532250AD35000F4E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +106,11 @@
 		55090C942250F5DA000F4E74 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
 		55090C962250F5DA000F4E74 /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
 		55090C982250F5DA000F4E74 /* UITextFiled+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextFiled+Category.swift"; sourceTree = "<group>"; };
+		550EB7DB225388AE0074A21F /* YZSHLifeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZSHLifeVC.swift; sourceTree = "<group>"; };
+		550EB7DD225388BA0074A21F /* YZSHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZSHomeVC.swift; sourceTree = "<group>"; };
+		550EB7DF225388C40074A21F /* YZSHPublishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZSHPublishVC.swift; sourceTree = "<group>"; };
+		550EB7E1225388D00074A21F /* YZSHTopicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZSHTopicVC.swift; sourceTree = "<group>"; };
+		550EB7E3225388D90074A21F /* YZSHUserCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZSHUserCenterVC.swift; sourceTree = "<group>"; };
 		55490B98225106E600652271 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		55490B99225106E600652271 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		55490B9F225106E600652271 /* MyCollectionViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewVC.swift; sourceTree = "<group>"; };
@@ -190,7 +198,11 @@
 		183103172253510800653268 /* MainClasses */ = {
 			isa = PBXGroup;
 			children = (
-				183103202253524000653268 /* MainClasses.swift */,
+				550EB7D4225387800074A21F /* YZSHLife */,
+				550EB7D2225387800074A21F /* YZSHome */,
+				550EB7D1225387800074A21F /* YZSHPublish */,
+				550EB7D5225387800074A21F /* YZSHTopic */,
+				550EB7D3225387800074A21F /* YZSHUserCenter */,
 			);
 			path = MainClasses;
 			sourceTree = "<group>";
@@ -377,6 +389,86 @@
 				55090C982250F5DA000F4E74 /* UITextFiled+Category.swift */,
 			);
 			path = UITextFiled;
+			sourceTree = "<group>";
+		};
+		550EB7D1225387800074A21F /* YZSHPublish */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7D8225388520074A21F /* YZSHPublishVC */,
+			);
+			path = YZSHPublish;
+			sourceTree = "<group>";
+		};
+		550EB7D2225387800074A21F /* YZSHome */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7D7225388480074A21F /* YZSHomeVC */,
+			);
+			path = YZSHome;
+			sourceTree = "<group>";
+		};
+		550EB7D3225387800074A21F /* YZSHUserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7DA225388640074A21F /* YZSHUserCenterVC */,
+			);
+			path = YZSHUserCenter;
+			sourceTree = "<group>";
+		};
+		550EB7D4225387800074A21F /* YZSHLife */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7D6225388420074A21F /* YZSHLifeVC */,
+			);
+			path = YZSHLife;
+			sourceTree = "<group>";
+		};
+		550EB7D5225387800074A21F /* YZSHTopic */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7D9225388590074A21F /* YZSHTopicVC */,
+			);
+			path = YZSHTopic;
+			sourceTree = "<group>";
+		};
+		550EB7D6225388420074A21F /* YZSHLifeVC */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7DB225388AE0074A21F /* YZSHLifeVC.swift */,
+			);
+			path = YZSHLifeVC;
+			sourceTree = "<group>";
+		};
+		550EB7D7225388480074A21F /* YZSHomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7DD225388BA0074A21F /* YZSHomeVC.swift */,
+			);
+			path = YZSHomeVC;
+			sourceTree = "<group>";
+		};
+		550EB7D8225388520074A21F /* YZSHPublishVC */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7DF225388C40074A21F /* YZSHPublishVC.swift */,
+			);
+			path = YZSHPublishVC;
+			sourceTree = "<group>";
+		};
+		550EB7D9225388590074A21F /* YZSHTopicVC */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7E1225388D00074A21F /* YZSHTopicVC.swift */,
+			);
+			path = YZSHTopicVC;
+			sourceTree = "<group>";
+		};
+		550EB7DA225388640074A21F /* YZSHUserCenterVC */ = {
+			isa = PBXGroup;
+			children = (
+				550EB7E3225388D90074A21F /* YZSHUserCenterVC.swift */,
+			);
+			path = YZSHUserCenterVC;
 			sourceTree = "<group>";
 		};
 		55490B96225106E600652271 /* ToolsVC */ = {
@@ -801,7 +893,9 @@
 				55490BF7225106E600652271 /* RYQPhotoColletionCell.swift in Sources */,
 				1831031E2253518E00653268 /* MyNavigation.swift in Sources */,
 				55490C242251093400652271 /* NetWorkHelper.swift in Sources */,
+				550EB7DE225388BA0074A21F /* YZSHomeVC.swift in Sources */,
 				55490C1F2251093400652271 /* Factory.swift in Sources */,
+				550EB7E2225388D00074A21F /* YZSHTopicVC.swift in Sources */,
 				55090C822250F4CB000F4E74 /* MacroDefinition.swift in Sources */,
 				55490C262251093400652271 /* SXYNetworkReachability.swift in Sources */,
 				55490C08225106E600652271 /* RYQTextView.m in Sources */,
@@ -812,7 +906,7 @@
 				55490BFA225106E600652271 /* RYQWebViewVC.swift in Sources */,
 				55490BF9225106E600652271 /* RYQWebViewVC+Progess.swift in Sources */,
 				1831031F2253518E00653268 /* MyPublic.swift in Sources */,
-				183103212253524000653268 /* MainClasses.swift in Sources */,
+				550EB7E0225388C40074A21F /* YZSHPublishVC.swift in Sources */,
 				55090C542250AD35000F4E74 /* ViewController.swift in Sources */,
 				55490C1B2251093400652271 /* Factory+Cache.swift in Sources */,
 				55490C202251093400652271 /* MyModel.swift in Sources */,
@@ -822,6 +916,7 @@
 				1831031D2253518E00653268 /* MyTabBar.swift in Sources */,
 				55090CA12250F5DA000F4E74 /* UITextFiled+Category.swift in Sources */,
 				55490BF6225106E600652271 /* RYQImageViewVC.swift in Sources */,
+				550EB7DC225388AE0074A21F /* YZSHLifeVC.swift in Sources */,
 				55490C1D2251093400652271 /* Factory+RankTools.swift in Sources */,
 				55490C252251093400652271 /* SXYNetWork.swift in Sources */,
 				55490BF2225106E600652271 /* MyTableViewReFreshVC.m in Sources */,
@@ -837,6 +932,7 @@
 				55090C9A2250F5DA000F4E74 /* UILabel+Category.swift in Sources */,
 				55490C1E2251093400652271 /* Factory+SystemHelper.swift in Sources */,
 				55490C07225106E600652271 /* RYQImgageView.swift in Sources */,
+				550EB7E4225388D90074A21F /* YZSHUserCenterVC.swift in Sources */,
 				55490BFF225106E600652271 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

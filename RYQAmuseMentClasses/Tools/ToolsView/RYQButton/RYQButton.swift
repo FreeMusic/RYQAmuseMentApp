@@ -74,7 +74,6 @@ class RYQButton: UIButton {
         case TitleLabelFontStyle.blod:do {
             self.titleLabel?.font = UIFont.boldSystemFont(ofSize: CGFloat(font)*m6Scale)
             }
-        default: break
             
         }
     }
@@ -90,8 +89,6 @@ class RYQButton: UIButton {
             self.backgroundColor = clear
         }
             break
-            
-        default: break
             
         }
     }

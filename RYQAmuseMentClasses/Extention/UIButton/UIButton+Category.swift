@@ -93,7 +93,6 @@ extension UIButton {
             self.layer.borderWidth = 1
             self.backgroundColor = white
             break
-        default: break
             
         }
     }
